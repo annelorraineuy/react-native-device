@@ -15,9 +15,6 @@ export default () => ({
   bundleId: DeviceInfo.getBundleId(),
   version: DeviceInfo.getVersion(),
   build: DeviceInfo.getBuildNumber(),
-  userAgent: {
-    ...parseUa(DeviceInfo.getUserAgent()),
-  },
   locale: DeviceInfo.getDeviceLocale(),
   country: DeviceInfo.getDeviceCountry(),
   // only available on android, prevent throw

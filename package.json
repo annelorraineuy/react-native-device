@@ -8,7 +8,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "react-native-device-info": "github:rebeccahughes/react-native-device-info#27f2bb3",
+    "react-native-device-info": "github:rebeccahughes/react-native-device-info#d638e235480faba9c48ca838c08f0998e729a778",
     "ua-parser-js": "^0.7.10"
   },
   "devDependencies": {
